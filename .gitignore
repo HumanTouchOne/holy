@@ -16,6 +16,9 @@
 coverage.*
 *.coverprofile
 profile.cov
+/data
+/bin
+/logs
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
@@ -27,6 +30,15 @@ go.work.sum
 # env file
 .env
 
+
 # Editor/IDE
 # .idea/
 # .vscode/
+# AI
+/.env
+/.envrc
+/.lingma
+/.clinerules
+/.claude
+/.trae
+CLAUDE.md
